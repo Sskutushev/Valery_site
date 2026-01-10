@@ -1,0 +1,36 @@
+{
+  "name": "ai-management-landing",
+  "version": "1.0.0",
+  "description": "A modern landing page for an AI-powered management and sales platform",
+  "main": "clean_index.html",
+  "scripts": {
+    "start": "npx serve .",
+    "dev": "npx live-server --port=3000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "javascript",
+    "landing-page",
+    "ai",
+    "management",
+    "sales",
+    "responsive",
+    "animations"
+  ],
+  "author": "Mid-level Developer",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^14.2.1",
+    "live-server": "^1.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Sskutushev/Valery_site.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Sskutushev/Valery_site/issues"
+  },
+  "homepage": "https://github.com/Sskutushev/Valery_site#readme"
+}

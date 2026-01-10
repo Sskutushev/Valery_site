@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Управление и Продажи</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Public+Sans:wght@600&family=Open+Sans:wght@400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header id="main-header">
+        <div class="container">
+            <div class="logo">
+                <img src="./image/Logo.svg" alt="Logo" aria-label="Главная страница">
+            </div>
+
+            <nav class="nav-menu" aria-label="Основная навигация">
+                <a href="#" class="nav-link" aria-current="page">ГЛАВНАЯ</a>
+                <a href="#" class="nav-link">ПАРТНЕРАМ</a>
+                <a href="#" class="nav-link">ИНВЕСТОРАМ</a>
+                <a href="#" class="nav-link">СПРАВКА</a>
+            </nav>
+
+            <div class="header-controls">
+                <button class="theme-toggle" id="theme-toggle" aria-label="Переключить тему">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="white">
+                        <path d="M12 2.25a.75.75 0 01.75.75v2.25a.75.75 0 01-1.5 0V3a.75.75 0 01.75-.75zM7.5 12a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM18.894 6.166a.75.75 0 00-1.06-1.06l-1.591 1.59a.75.75 0 101.06 1.061l1.591-1.59zM21.75 12a.75.75 0 01-.75.75h-2.25a.75.75 0 010-1.5H21a.75.75 0 01.75.75zM17.834 18.894a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 10-1.061 1.06l1.59 1.591zM12 18a.75.75 0 01.75.75V21a.75.75 0 01-1.5 0v-2.25A.75.75 0 0112 18zM7.758 17.303a.75.75 0 00-1.061-1.06l-1.591 1.59a.75.75 0 001.06 1.061l1.591-1.59zM6 12a.75.75 0 01-.75.75H3a.75.75 0 010-1.5h2.25A.75.75 0 016 12zM6.697 7.757a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 00-1.061 1.06l1.59 1.591z"/>
+                    </svg>
+                </button>
+
+                <button class="lang-toggle" id="lang-toggle" aria-label="Переключить язык">РУ</button>
+
+                <button class="start-btn">НАЧАТЬ</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <!-- Background Video -->
+        <video autoplay muted loop playsinline class="hero-background-video">
+            <source src="./video/background-video.mp4" type="video/mp4">
+            Ваш браузер не поддерживает видео.
+        </video>
+
+        <div class="container">
+            <div class="hero-grid">
+                <!-- Left Content Block -->
+                <div class="left-content">
+                    <h1 class="main-heading animate-from-left" data-animation-order="1">Управление и продажи<br>с помощью АИ</h1>
+
+                    <p class="description">
+                        <span class="desc-part1 animate-from-left" data-animation-order="2">Единый ИИ-помощник для управления социальными сетями, клиентами и продажами</span>
+                        <span class="desc-part2 animate-from-left" data-animation-order="3">— умный, быстрый и всегда онлайн.</span>
+                    </p>
+
+                    <button class="cta-button animate-from-bottom" data-animation-order="4">ПОДКЛЮЧИТЬ</button>
+
+                    <div class="stats-section">
+                        <div class="stat-item animate-from-bottom" data-animation-order="5">
+                            <div class="stat-number" data-count-from="0" data-count-to="3990" data-suffix="₽">3,990₽</div>
+                            <div class="stat-label">Полный доступ</div>
+                        </div>
+
+                        <div class="stat-item animate-from-bottom" data-animation-order="6">
+                            <div class="stat-number" data-count-from="0" data-count-to="3">3</div>
+                            <div class="stat-label">Дня БЕСПЛАТНО</div>
+                        </div>
+
+                        <div class="stat-item animate-from-bottom" data-animation-order="7">
+                            <div class="stat-number" data-count-from="0" data-count-to="247" data-suffix="24/7">24/7</div>
+                            <div class="stat-label">Поддержка</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Content Block -->
+                <div class="right-content">
+                    <div class="info-grid">
+                        <!-- Left Column - Feature Cards -->
+                        <div class="feature-card animate-from-right" data-animation-order="8">
+                            <div class="card-icon">
+                                <img src="./image/Union.svg" alt="Соцсети">
+                            </div>
+                            <div class="card-content">
+                                <div class="card-heading">Ведёт соцсети</div>
+                                <div class="card-subtext">Автопостинг в ваши каналы. AI создаёт тексты и картинки за секунды.</div>
+                            </div>
+                        </div>
+
+                        <div class="feature-card animate-from-right" data-animation-order="9">
+                            <div class="card-icon">
+                                <img src="./image/chat.svg" alt="Чат">
+                            </div>
+                            <div class="card-content">
+                                <div class="card-heading">Отвечает клиентам</div>
+                                <div class="card-subtext">ИИ бот 24/7 знает ваш бизнес и товары. Вы спите - он продаёт.</div>
+                            </div>
+                        </div>
+
+                        <div class="feature-card animate-from-right" data-animation-order="10">
+                            <div class="card-icon">
+                                <img src="./image/market.svg" alt="Магазин">
+                            </div>
+                            <div class="card-content">
+                                <div class="card-heading">Помогает с товарами</div>
+                                <div class="card-subtext">Каталог, кравлер и услуги с AI описаниями. Импорте сайта за пару кликов.</div>
+                            </div>
+                        </div>
+
+                        <!-- Right Column - Pricing Card -->
+                        <div class="pricing-card animate-from-bottom" data-animation-order="11">
+                            <h3 class="pricing-title">Тарифы</h3>
+
+                            <div class="pricing-tiers">
+                                <div class="tier-row">
+                                    <div class="badge" style="background-color: #5C6779;">
+                                        <img src="./image/Group 1018.svg" alt="Пробный" class="badge-icon">
+                                    </div>
+                                    <div class="badge-label">Пробный</div>
+                                </div>
+
+                                <div class="tier-row">
+                                    <div class="badge" style="background-color: #3372D3;">
+                                        <img src="./image/Group 427320381.svg" alt="Базовый" class="badge-icon">
+                                    </div>
+                                    <div class="badge-label">Базовый</div>
+                                </div>
+
+                                <div class="tier-row">
+                                    <div class="badge" style="background-color: #0251CC;">
+                                        <img src="./image/Group 427320382.svg" alt="Расширенный" class="badge-icon">
+                                    </div>
+                                    <div class="badge-label">Расширенный</div>
+                                </div>
+                            </div>
+
+                            <div class="divider"></div>
+
+                            <div class="service-info">
+                                <div class="service-subtitle">Подключение под ключ</div>
+                                <p class="service-description">Анализ бизнеса, настройка бота, загрузка товаров, обучение + тариф SMM на первый месяц</p>
+                                <button class="details-btn">ПОДРОБНЕЕ ОБ УСЛУГАХ</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
